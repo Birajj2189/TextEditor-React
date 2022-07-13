@@ -37,7 +37,7 @@ function App() {
     }
     else{
       switchMode("dark");
-      document.body.style.backgroundColor = ' rgb(10 9 8)';
+      document.body.style.backgroundColor = '#202124';
       document.body.style.color = 'white';
       showAlert("Dark mode is enabled : ","success");
     }
@@ -51,7 +51,7 @@ function App() {
         {/* <Routes> */}
           {/* <Route path="/about" mode={mode} element ={<About mode={mode}/>}/> */}
           {/* <Route path="/" element={<Textarea alert={showAlert} mode={mode} heading = "Enter your text here : "/>}/> */}
-          <Textarea alert={showAlert} mode={mode} heading = "Enter your text here : "/>
+          <Textarea alert={showAlert} mode={mode} heading = "Try this out : Convert your text to LowerCase & UpperCase , Remove extra spaces and copy your Text : "/>
         {/* </Routes> */}
       </div>
      {/* </Router> */}
